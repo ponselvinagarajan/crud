@@ -1,0 +1,18 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+th{
+    background-color: chartreuse;
+}
+tr:nth-child(odd){
+    background-color: crimson;
+    align-items: center;
+}
+/* td.data1{
+    padding: 0 50%;
+} */
+/* .edit{
+    background-color: cornflowerblue;
+} */
